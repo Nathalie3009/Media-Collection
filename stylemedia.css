@@ -1,0 +1,76 @@
+html {
+min-height: 100vh
+margin: 0;
+padding: 0;
+background-image: url("../images/magazine.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+ body, p {
+	font-family: Roboto;
+}
+
+h1, h4{
+	text-align: center;
+	font-family: Francois One;
+}
+
+h1 {
+	color: #CE0B13;
+	font-size: 60px;
+}
+
+button {
+	background-color: #F3E59A;
+	font-family: Roboto;
+}
+
+/********** All the ID's *******/
+#wrapper {
+	margin:auto;
+	width: 75%;
+}
+
+
+#radioForm1, #radioForm2{
+	padding-left: 1em;
+}
+
+
+/********** All the Classes' *******/
+.box {
+	float: left;
+	width: 21.8rem;
+	margin:2px;
+  height: 20rem;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top:5px;
+  border-bottom: 6px solid #ce0b13;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.box p {
+	margin: 2px;
+}
+
+.choice{
+	padding-left: 2px;
+}
+
+
+
+/****** Media Query****/
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+	}
+	.box {
+		float: left;
+		width: 20rem;
+		margin:2px;
+	  height: 20rem;
+	}
+
+}

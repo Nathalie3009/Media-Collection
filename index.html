@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Media Collection</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Francois One|Roboto">
+<link rel="stylesheet" type="text/css" href="stylemedia.css">
+</head>
+<body>
+
+	<div id="wrapper">
+		<div class="container">
+			<h1>Media Collection</h1>
+				<div class="box" id="products">
+					<p> <h4>Products</h4>
+						<hr width="90%"; size="3px">
+							<ul>
+								<button class="btn" onclick="changeProduct('0')">Books</button>
+									<button class="btn" onclick="changeProduct('1')">CD's</button>
+										<button class="btn" onclick="changeProduct('2')">DVD's</button>
+							</ul>
+					</p>
+								<form name="radioForm" method="post" action="#" id="radioForm1">Change Text Colour <br/>
+								<hr width="85%"; size="3px">
+									<input class="choice" type="radio" value="myRadio" name="color" onchange="chgColor('colorRed')"/>Red<br />
+									<input class="choice" type="radio" value="myRadio" name="color"onchange="chgColor('colorPurple')"  />Purple<br />
+									<input class="choice" type="radio" value="myRadio" name="color" onchange="chgColor('colorBlue')" />Blue<br />
+									<input class="choice" type="radio" value="myRadio" name="color" onchange="chgColor('colorGreen')"/>Green<br />
+									</form>
+
+						</div><!--end of products-->
+						<div class="box" id="txt"> <h4>Books</h4>
+							<hr width="90%"; size="3px"><p id="productxt"> Discover our great collection of books from fiction to history. In addition, we are specialised in WEB Design and Development.<br/> From Java programming to simple HTML coding, you won't be disappointed with our great choice. <br/> Come and check our wide collection of books in the IT field.<br/></p>
+								</div><!--end of display txt-->
+				<div class="box" id="displayimg"><img src="images/stackOfBooks.jpg" id="prodimg"/></div><!--end of display img-->
+	</div>
+</div>
+<script src="media.js"></script>
+</body>
+
+
+</html>
