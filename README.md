@@ -1,2 +1,1 @@
-"# Media-Collection" 
-"# Media-Collection" 
+Hand coded demo page / HTML / CSS / JavaScript
